@@ -33,7 +33,6 @@ class TestTable extends Component<DataProps, TestTableState> {
 
     return (
       <div className="container mt-5">
-        {/* Search bar */}
         <div className="form-group mb-4">
           <input
             type="text"
@@ -44,7 +43,6 @@ class TestTable extends Component<DataProps, TestTableState> {
           />
         </div>
 
-        {/* Table */}
         <div className="table-responsive">
           <table className="table table-bordered table-hover table-striped">
             <thead className="thead-dark">
