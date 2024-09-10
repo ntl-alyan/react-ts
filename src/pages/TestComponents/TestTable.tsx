@@ -8,7 +8,7 @@ interface TestTableState {
   searchQuery: string;
 }
 
-class TestTable extends Component<DataProps, TestTableState> {
+class ProductsTable extends Component<DataProps, TestTableState> {
   constructor(props: DataProps) {
     super(props);
     this.state = {
@@ -74,4 +74,4 @@ class TestTable extends Component<DataProps, TestTableState> {
   }
 }
 
-export default TestTable;
+export default ProductsTable;

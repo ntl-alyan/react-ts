@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import TestTable from '../TestComponents/TestTable'; 
+import ProductsTable from '../TestComponents/TestTable'; 
 import { ColorRing } from "react-loader-spinner";
 
-function Test() {
+function Products() {
   const [isError, setIsError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [tableData, setTableData] = useState([]);
@@ -52,7 +52,7 @@ function Test() {
             ) : (
               <div>
                 <h4 className="alert alert-primary">Products Data</h4>
-                <TestTable data={tableData} />
+                <ProductsTable data={tableData} />
               </div>
             )}
           </div>
@@ -62,4 +62,4 @@ function Test() {
   );
 }
 
-export default Test;
+export default Products;
